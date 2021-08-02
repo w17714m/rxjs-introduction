@@ -192,7 +192,7 @@
                     Observable.</h4>
             </div>
             <div style="background: white;">
-                <img src="http://reactivex.io/documentation/operators/images/create.c.png"/>
+                <img src="./img/observer.png"/>
             </div>
             <div class="byline">
                 <div>
@@ -239,7 +239,7 @@ var subscription = source.subscribe(
                     de operaciones simples</h4>
             </div>
             <div style="background: white">
-                <img src="http://reactivex.io/assets/operators/legend.png"/>
+                <img src="./img/observable.png"/>
             </div>
             <div class="byline">
                 <div>
@@ -389,7 +389,7 @@ var subscription = source.subscribeOnNext(
                 <h4>- Actúa como observador y como observable</h4>
             </div>
             <div style="background: white">
-                <img src="http://reactivex.io/documentation/operators/images/S.AsyncSubject.png"/>
+                <img src="./img/subject.png"/>
             </div>
             <div class="byline">
                 <div>
@@ -503,7 +503,12 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
                     index: index
                   };
                 }));
-              })
+              }) ..//</code></pre>
+        </div>
+    </section>
+    <section data-bespoke-state="code long">
+        <div class="content nofade">
+          <pre data-line="2-12"><code class="language-javascript">//....
               .flatMap(function(letterConfig) {
                 return rx.Observable.timer(letterConfig.index * 100)
                   .map(function() {
@@ -520,83 +525,12 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
                   $scope.letters[letterConfig.index] = letterConfig;
                 });
               });
-
-           $scope.$on('$destroy', function(){
-             mouseMoved.dispose();
-           });</code></pre>
+</code></pre>
         </div>
     </section>
     <section data-bespoke-state="code long">
         <div class="content nofade">
-          <pre data-line="18-28"><code class="language-javascript">var mouseMoved = rx.Observable.fromEvent($document, 'mousemove')
-              .map(function (e) {
-                var offset = getOffset(textContainer);
-                return {
-                  offsetX : e.clientX - offset.left,
-                  offsetY : e.clientY - offset.top
-                };
-              })
-              .flatMap(function(delta) {
-                return rx.Observable.fromArray(_.map($scope.text, function(letter, index) {
-                  return {
-                    letter: letter,
-                    delta: delta,
-                    index: index
-                  };
-                }));
-              })
-              .flatMap(function(letterConfig) {
-                return rx.Observable.timer(letterConfig.index * 100)
-                  .map(function() {
-                    return {
-                      text: letterConfig.letter,
-                      top: letterConfig.delta.offsetY,
-                      left: letterConfig.delta.offsetX + letterConfig.index * 20 + 15,
-                      index: letterConfig.index
-                    };
-                });
-              }).
-              subscribe(function(letterConfig) {
-                $scope.$apply(function() {
-                  $scope.letters[letterConfig.index] = letterConfig;
-                });
-              });
-
-           $scope.$on('$destroy', function(){
-             mouseMoved.dispose();
-           });</code></pre>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-          <pre data-line="29-37"><code class="language-javascript">var mouseMoved = rx.Observable.fromEvent($document, 'mousemove')
-              .map(function (e) {
-                var offset = getOffset(textContainer);
-                return {
-                  offsetX : e.clientX - offset.left,
-                  offsetY : e.clientY - offset.top
-                };
-              })
-              .flatMap(function(delta) {
-                return rx.Observable.fromArray(_.map($scope.text, function(letter, index) {
-                  return {
-                    letter: letter,
-                    delta: delta,
-                    index: index
-                  };
-                }));
-              })
-              .flatMap(function(letterConfig) {
-                return rx.Observable.timer(letterConfig.index * 100)
-                  .map(function() {
-                    return {
-                      text: letterConfig.letter,
-                      top: letterConfig.delta.offsetY,
-                      left: letterConfig.delta.offsetX + letterConfig.index * 20 + 15,
-                      index: letterConfig.index
-                    };
-                });
-              }).
+          <pre data-line="29-37"><code class="language-javascript">// ...
               subscribe(function(letterConfig) {
                 $scope.$apply(function() {
                   $scope.letters[letterConfig.index] = letterConfig;
@@ -696,10 +630,6 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
         <div class="content">
         </div>
     </section>
-
-
-
-
 </article>
 
 <!-- carga fonts javascript-->
