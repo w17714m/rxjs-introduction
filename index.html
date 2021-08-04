@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <title>Introducción Rxjs</title>
@@ -7,208 +8,210 @@
     <link rel="stylesheet" href="css/prism.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
+
 <body>
-<article>
-    <section data-bespoke-state="start">
-        <div class="content">
-            <div class="unbrokenline"></div>
-            <h1>Programación reactiva con JavaScript<br> Introducción &#128406</h1>
-            <div class="byline">
-                <div class="classy">
-                    by William Cubillos &amp; Santiago Alarcon
-                </div> &#128512; &nbsp;
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="js">
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Codificamos
+    <article>
+        <section data-bespoke-state="start">
+            <div class="content">
+                <div class="unbrokenline"></div>
+                <h1>Programación reactiva con JavaScript<br> Introducción &#128406</h1>
+                <div class="byline">
+                    <div class="classy">
+                        by William Cubillos &amp; Santiago Alarcon
+                    </div> &#128512; &nbsp;
                 </div>
             </div>
-            <h3>Javascript</h3>
-            <div class="byline">
-                <div class="classy">
-                    todos los días
+        </section>
+        <section data-bespoke-state="js">
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Codificamos
+                    </div>
+                </div>
+                <h3>Javascript</h3>
+                <div class="byline">
+                    <div class="classy">
+                        todos los días
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section data-bespoke-state="programming">
-        <div class="content"></div>
-    </section>
-    <section data-bespoke-state="advocate">
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Pero
+        </section>
+        <section data-bespoke-state="programming">
+            <div class="content"></div>
+        </section>
+        <section data-bespoke-state="advocate">
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Pero
+                    </div>
+                </div>
+                <h3>Utilizamos todo el poder <br /> del procesamiento asíncrono y reactivo?</h3>
+                <div class="unbrokenline"></div>
+            </div>
+        </section>
+        <section data-bespoke-state="developer">
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Breve Intro
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Que es programación <strong>Reactiva</strong>?</h4>
+                    <h4>- Que es programación <strong>Funcional</strong>?</h4>
+                    <h4>- Casos de éxito de la programación Reactiva</h4>
+                    <h4>- ReactiveX y la programación Reactiva</h4>
+                </div>
+                <div class="byline">
+                    <div>
+                        &#129299;
+                    </div>
                 </div>
             </div>
-            <h3>Utilizamos todo el poder <br/> del procesamiento asincrono y reactivo?</h3>
-            <div class="unbrokenline"></div>
-        </div>
-    </section>
-    <section data-bespoke-state="developer">
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Breve Intro
-                </div>
+        </section>
+        <section data-bespoke-state="looking-around">
+            <div class="content">
+                <h4>Es realmente útil la programación <strong>Reactiva</strong>?</h4>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Que es programación <strong>Reactiva</strong>?</h4>
-                <h4>- Que es programación <strong>Funcional</strong>?</h4>
-                <h4>- Casos de éxito de la programación Reactiva</h4>
-                <h4>- ReactiveX y la programación Reactiva</h4>
+        </section>
+        <!-- nucleos -->
+        <section>
+            <div class="content">
+                <h3>Los nucleos no se estan haciendo mas rapidos</h3>
+                <div class="classy">y escalar es costoso.</div>
+                <img src="img/clock-speed.png" />
+                <sub><a href="https://csgillespie.wordpress.com/2011/01/25/cpu-and-gpu-trends-over-time/">(source:
+                        csgillespie.wordpress.com)</a></sub>
             </div>
-            <div class="byline">
-                <div>
-                    &#129299;
-                </div>
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="looking-around">
-        <div class="content">
-            <h4>Es realmente útil la programación <strong>Reactiva</strong>?</h4>
-        </div>
-    </section>
-    <!-- nucleos -->
-    <section>
-        <div class="content">
-            <h3>Los nucleos no se estan haciendo mas rapidos</h3>
-            <div class="classy">y escalar es costoso.</div>
-            <img src="img/clock-speed.png"/>
-            <sub><a href="https://csgillespie.wordpress.com/2011/01/25/cpu-and-gpu-trends-over-time/">(source:
-                csgillespie.wordpress.com)</a></sub>
-        </div>
-    </section>
+        </section>
 
-    <!-- Reactividad -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Hablaremos entonces
+        <!-- Reactividad -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Hablaremos entonces
+                    </div>
+                </div>
+                <h3>De Reactividad</h3>
+                <div class="byline">
                 </div>
             </div>
-            <h3>De Reactividad</h3>
-            <div class="byline">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- que es Reactividad -->
-    <section>
-        <div class="content">
-            <h3>¿Qué es programación reactiva?</h3>
-            <div class="unbrokenline"></div>
-            <div class="fake-list">
-                <h4>- Paradigma de programación</h4>
-                <h4>- Se ocupa de Flujo de Datos</h4>
-                <h4>- Genera Emisores</h4>
-                <h4>- Facilita la propagación de cambios</h4>
-            </div>
-        </div>
-    </section>
-
-    <!-- Que es programación funcional -->
-    <section>
-        <div class="content">
-            <h2>¿Qué es programación funcional?</h2>
-            <div class="unbrokenline"></div>
-            <div class="fake-list">
-                <h4>- Promueve la ejecución paralela</h4>
-                <h4>- Genera código mas reducido y mantenible</h4>
-                <h4>- El trabajo se puede escalar facilmente en subprocesos.</h4>
-            </div>
-            <div style="background: white">
-                <img src="https://thatcsharpguy.github.io/postimages/tv/functional/codecompare.png"/>
-            </div>
-        </div>
-    </section>
-
-    <!-- Que es programación funcional list -->
-    <section>
-        <div class="content">
-            <h3>Que es programación Funcional?</h3>
-            <div class="byline">
-                <div class="classy">La meta es el paralelismo!</div>
-            </div>
-            <div class="fake-list">
-                <h4>- Estados inmutables</h4>
-                <h4>- Sin efectos secundarios</h4>
-                <h4>- El trabajo se puede escalar facilmente en subprocesos.</h4>
-            </div>
-            <sub>(* pun!) &#x1F98A;</sub>
-        </div>
-    </section>
-
-    <!-- Casos en los que se puede aplicar -->
-    <section>
-        <div class="content">
-            <h3>¿En qué casos se puede aplicar?</h3>
-            <div style="background: white">
-                <img src="https://jrb.dev/reactivex-users.png"/>
-            </div>
-        </div>
-    </section>
-
-    <!-- Reactivex relación -->
-    <section>
-        <div class="content">
-            <div>¿Qué es reactive X y como está relacionado con la programación reactiva?</div>
-            <br>
-            <div class="classy"><a href="http://reactivex.io/">http://reactivex.io/.</a></div>
-        </div>
-    </section>
-    <section>
-        <div class="content">
-            <h3>Recetas para programación <strong>Reactiva</strong></h3>
-            <br/>
-            <div style="background: white">
-                <img style="width: 50%;" src="https://dev-to-uploads.s3.amazonaws.com/i/iiw632jrlizoo33rhm4d.png"/>
-            </div>
-        </div>
-    </section>
-
-    <!-- Observer -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Definición Observer
+        <!-- que es Reactividad -->
+        <section>
+            <div class="content">
+                <h3>¿Qué es programación reactiva?</h3>
+                <div class="unbrokenline"></div>
+                <div class="fake-list">
+                    <h4>- Paradigma de programación</h4>
+                    <h4>- Se ocupa de Flujo de Datos</h4>
+                    <h4>- Genera Emisores</h4>
+                    <h4>- Facilita la propagación de cambios</h4>
                 </div>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Representa la idea de una colección invocable de valores o eventos futuros.</h4>
-                <h4>- El patrón de observador es un patrón de diseño de software en el que un objeto, llamado
-                    sujeto.</h4>
-                <h4>- Mantiene una lista de sus dependientes, llamados observadores.</h4>
-                <h4>- Les notifica automáticamente de cualquier cambio de estado, generalmente llamando a uno de sus
-                    métodos.</h4>
-                <h4>- Es una colección de devoluciones de llamada que sabe cómo escuchar los valores entregados por el
-                    Observable.</h4>
-            </div>
-            <div style="background: white;">
-                <img src="img/observer.png"/>
-            </div>
-            <div class="byline">
-                <div>
-                    &#x1f440;
+        </section>
+
+        <!-- Que es programación funcional -->
+        <section>
+            <div class="content">
+                <h2>¿Qué es programación funcional?</h2>
+                <div class="unbrokenline"></div>
+                <div class="fake-list">
+                    <h4>- Promueve la ejecución paralela</h4>
+                    <h4>- Genera código mas reducido y mantenible</h4>
+                    <h4>- El trabajo se puede escalar facilmente en subprocesos.</h4>
+                </div>
+                <div style="background: white">
+                    <img src="https://thatcsharpguy.github.io/postimages/tv/functional/codecompare.png" />
                 </div>
             </div>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-            <div class="byline">
-                <div class="classy">
-                    Definición Observer
+        </section>
+
+        <!-- Que es programación funcional list -->
+        <section>
+            <div class="content">
+                <h3>Que es programación Funcional?</h3>
+                <div class="byline">
+                    <div class="classy">La meta es el paralelismo!</div>
+                </div>
+                <div class="fake-list">
+                    <h4>- Estados inmutables</h4>
+                    <h4>- Sin efectos secundarios</h4>
+                    <h4>- El trabajo se puede escalar facilmente en subprocesos.</h4>
+                </div>
+                <sub>(* pun!) &#x1F98A;</sub>
+            </div>
+        </section>
+
+        <!-- Casos en los que se puede aplicar -->
+        <section>
+            <div class="content">
+                <h3>¿En qué casos se puede aplicar?</h3>
+                <div style="background: white">
+                    <img src="https://jrb.dev/reactivex-users.png" />
                 </div>
             </div>
-            <pre data-line="2-9"><code class="language-javascript">
+        </section>
+
+        <!-- Reactivex relación -->
+        <section>
+            <div class="content">
+                <div>¿Qué es reactive X y como está relacionado con la programación reactiva?</div>
+                <br>
+                <div class="classy"><a href="http://reactivex.io/">http://reactivex.io/.</a></div>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <h3>Recetas para programación <strong>Reactiva</strong></h3>
+                <br />
+                <div style="background: white">
+                    <img style="width: 50%;" src="https://dev-to-uploads.s3.amazonaws.com/i/iiw632jrlizoo33rhm4d.png" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Observer -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Observer
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Representa la idea de una colección invocable de valores o eventos futuros.</h4>
+                    <h4>- El patrón de observador es un patrón de diseño de software en el que un objeto, llamado
+                        sujeto.</h4>
+                    <h4>- Mantiene una lista de sus dependientes, llamados observadores.</h4>
+                    <h4>- Les notifica automáticamente de cualquier cambio de estado, generalmente llamando a uno de sus
+                        métodos.</h4>
+                    <h4>- Es una colección de devoluciones de llamada que sabe cómo escuchar los valores entregados por
+                        el
+                        Observable.</h4>
+                </div>
+                <div style="background: white;">
+                    <img src="img/observer.png" />
+                </div>
+                <div class="byline">
+                    <div>
+                        &#x1f440;
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Observer
+                    </div>
+                </div>
+                <pre data-line="2-9"><code class="language-javascript">
 /* Using a function */
 var source = Rx.Observable.create(function (observer) {
     observer.onNext(42);
@@ -222,40 +225,41 @@ var subscription = source.subscribe(
     function (x) { console.log('Next: ' + x); },
     function (err) { console.log('Error: ' + err); },
     function () { console.log('Completed'); });</code></pre>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- Observable -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Definición Observable
+        <!-- Observable -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Observable
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Representa la idea de una colección invocable de valores o eventos futuros.</h4>
+                    <h4>- El modelo ReactiveX Observable le permite tratar flujos de eventos asincrónicos con el mismo
+                        tipo
+                        de operaciones simples</h4>
+                </div>
+                <div style="background: white">
+                    <img src="img/observable.png" />
+                </div>
+                <div class="byline">
+                    <div>
+                        &#x1f440;
+                    </div>
                 </div>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Representa la idea de una colección invocable de valores o eventos futuros.</h4>
-                <h4>- El modelo ReactiveX Observable le permite tratar flujos de eventos asincrónicos con el mismo tipo
-                    de operaciones simples</h4>
-            </div>
-            <div style="background: white">
-                <img src="img/observable.png"/>
-            </div>
-            <div class="byline">
-                <div>
-                    &#x1f440;
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Observable
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-            <div class="byline">
-                <div class="classy">
-                    Definición Observable
-                </div>
-            </div>
-            <pre data-line="2-7"><code class="language-javascript">
+                <pre data-line="2-7"><code class="language-javascript">
 var source = Rx.Observable.generate(
     0,
     function (x) { return x < 3; },
@@ -268,41 +272,41 @@ var subscription = source.subscribe(
     function (err) { console.log('Error: ' + err); },
     function () { console.log('Completed'); });
             </code></pre>
-        </div>
-    </section>
+            </div>
+        </section>
 
 
-    <!-- Subscription -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Definición Subscription
+        <!-- Subscription -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Subscription
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Una suscripción es un objeto que representa un recurso disponible</h4>
+                    <h4>- Es un observable por lo general</h4>
+                    <h4>- Posee tambien un metodo un unsubscribe</h4>
+                </div>
+                <div style="background: white">
+                    <img src="https://pablomagaz.com/content/images/2018/12/BehaviorSubject.png" />
+                </div>
+                <div class="byline">
+                    <div>
+                        &#x1f440;
+                    </div>
                 </div>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Una suscripción es un objeto que representa un recurso disponible</h4>
-                <h4>- Es un observable por lo general</h4>
-                <h4>- Posee tambien un metodo un unsubscribe</h4>
-            </div>
-            <div style="background: white">
-                <img src="https://pablomagaz.com/content/images/2018/12/BehaviorSubject.png"/>
-            </div>
-            <div class="byline">
-                <div>
-                    &#x1f440;
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Subscription
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-            <div class="byline">
-                <div class="classy">
-                    Definición Subscription
-                </div>
-            </div>
-            <pre data-line="4-7"><code class="language-javascript">
+                <pre data-line="4-7"><code class="language-javascript">
     var source = Rx.Observable.range(0, 3)
 
 var subscription = source.subscribeOnNext(
@@ -314,98 +318,98 @@ var subscription = source.subscribeOnNext(
 // Next: 1
 // Next: 2
 </code></pre>
-        </div>
-    </section>
+            </div>
+        </section>
 
 
-    <!-- Operadores -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Definición Operadores
+        <!-- Operadores -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Operadores
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Son de tipo operadores canalización. Filter, Merge.</h4>
+                    <h4>- Operacion de creación, como por ejemplo of</h4>
+                </div>
+                <div style="background: white">
+                    <img src="https://reactive.how/img/reduce/reduce-scan-featured.gif" />
+                </div>
+                <div class="byline">
+                    <div>
+                        &#x1f440;
+                    </div>
                 </div>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Son de tipo operadores canalización. Filter, Merge.</h4>
-                <h4>- Operacion de creación, como por ejemplo of</h4>
-            </div>
-            <div style="background: white">
-                <img src="https://reactive.how/img/reduce/reduce-scan-featured.gif"/>
-            </div>
-            <div class="byline">
-                <div>
-                    &#x1f440;
-                </div>
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
+        </section>
+        <section data-bespoke-state="code long">
 
-        <span style="position: fixed; top:3%; left: 40%;font-size: 34px;"> -- Definición Operadores --</span>
-        <div>
-            <iframe src="https://reactive.how/rxjs/"
+            <span style="position: fixed; top:3%; left: 40%;font-size: 34px;"> -- Definición Operadores --</span>
+            <div>
+                <iframe src="https://reactive.how/rxjs/"
                     style="position:fixed; top:120px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-                Your browser doesn't support iframes
-            </iframe>
-        </div>
-    </section>
+                    Your browser doesn't support iframes
+                </iframe>
+            </div>
+        </section>
 
-    <section class="white only-image">
-        <div class="content nofade">
-            <img class="full-width-img" src="img/stream-diagram-01.jpg">
-        </div>
-    </section>
+        <section class="white only-image">
+            <div class="content nofade">
+                <img class="full-width-img" src="img/stream-diagram-01.jpg">
+            </div>
+        </section>
 
-    <section class="white only-image">
-        <div class="content nofade">
-            <img class="full-width-img" src="img/stream-diagram-02.jpg">
-        </div>
-    </section>
+        <section class="white only-image">
+            <div class="content nofade">
+                <img class="full-width-img" src="img/stream-diagram-02.jpg">
+            </div>
+        </section>
 
-    <section class="white only-image">
-        <div class="content nofade">
-            <img class="full-width-img" src="img/stream-diagram-03.jpg">
-        </div>
-    </section>
+        <section class="white only-image">
+            <div class="content nofade">
+                <img class="full-width-img" src="img/stream-diagram-03.jpg">
+            </div>
+        </section>
 
-    <section class="white only-image">
-        <div class="content nofade">
-            <img class="full-width-img" src="img/stream-diagram-04.jpg">
-        </div>
-    </section>
+        <section class="white only-image">
+            <div class="content nofade">
+                <img class="full-width-img" src="img/stream-diagram-04.jpg">
+            </div>
+        </section>
 
 
-    <!-- Subject -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Definición Subject
+        <!-- Subject -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Subject
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Un sujeto es una especie de puente o proxy.</h4>
+                    <h4>- Actúa como observador y como observable</h4>
+                </div>
+                <div style="background: white">
+                    <img src="img/subject.png" />
+                </div>
+                <div class="byline">
+                    <div>
+                        &#x1f440;
+                    </div>
                 </div>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Un sujeto es una especie de puente o proxy.</h4>
-                <h4>- Actúa como observador y como observable</h4>
-            </div>
-            <div style="background: white">
-                <img src="img/subject.png"/>
-            </div>
-            <div class="byline">
-                <div>
-                    &#x1f440;
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Subject
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-            <div class="byline">
-                <div class="classy">
-                    Definición Subject
-                </div>
-            </div>
-            <pre data-line="2-13"><code class="language-javascript">
+                <pre data-line="2-13"><code class="language-javascript">
 var subject = new Rx.Subject();
 
 var subscription = subject.subscribe(
@@ -430,37 +434,39 @@ subject.onNext(56);
 subject.onCompleted();
 
 // => Completed</code></pre>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- Scheduler -->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Definición Scheduler
+        <!-- Scheduler -->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Scheduler
+                    </div>
+                </div>
+                <div style="text-align: left;margin-left: 24px">
+                    <h4>- Un contexto de ejecución y una estructura de datos para ordenar tareas y programar su
+                        ejecución.</h4>
+                    <h4>- Permiten controlar la estrategia de tiempo de ejecución.</h4>
+                    <h4>- Articulo profundización de Queue, Asap, Async. <a
+                            href="https://blog.strongbrew.io/what-are-schedulers-in-rxjs/">Click Aquí</a> </h4>
+                </div>
+                <div class="byline">
+                    <div>
+                        &#x1f440;
+                    </div>
                 </div>
             </div>
-            <div style="text-align: left;margin-left: 24px">
-                <h4>- Un contexto de ejecución y una estructura de datos para ordenar tareas y programar su ejecución.</h4>
-                <h4>- Permiten controlar la estrategia de tiempo de ejecución.</h4>
-                <h4>- Articulo profundización de Queue, Asap, Async. <a href="https://blog.strongbrew.io/what-are-schedulers-in-rxjs/">Click Aquí</a> </h4>
-            </div>
-            <div class="byline">
-                <div>
-                    &#x1f440;
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <div class="byline">
+                    <div class="classy">
+                        Definición Scheduler
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-            <div class="byline">
-                <div class="classy">
-                    Definición Scheduler
-                </div>
-            </div>
-            <pre data-line="2-9"><code class="language-javascript">
+                <pre data-line="2-9"><code class="language-javascript">
 var disposable = Rx.Scheduler.timeout.scheduleWithState(
      'world',
      function (x) {
@@ -469,25 +475,34 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
 );
 
 // => hello world</code></pre>
-        </div>
-    </section>
-
-    <!-- aplauso triste -->
-    <section data-bespoke-state="sadclap">
-        <div class="content nofade">
-            Y eso es todo...?
-        </div>
-    </section>
-
-    <!-- ejecución de código -->
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-            <div class="byline">
-                <div class="classy">
-                    Vamos a explicar el ejemplo
-                </div>
             </div>
-          <pre data-line="2-17"><code class="language-javascript">var mouseMoved = rx.Observable.fromEvent($document, 'mousemove')
+        </section>
+
+        <section data-bespoke-state="code long">
+
+            <span style="position: fixed; top:3%; left: 44%;font-size: 34px;"> -- Repaso --</span>
+            <iframe src="https://github.com/Seal-23/rxjs-example#readme"
+                style="position:fixed; top:120px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+                Your browser doesn't support iframes
+            </iframe>
+        </section>
+
+        <!-- aplauso triste -->
+        <section data-bespoke-state="sadclap">
+            <div class="content nofade">
+                Y eso es todo...?
+            </div>
+        </section>
+
+        <!-- ejecución de código -->
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <div class="byline">
+                    <div class="classy">
+                        Vamos a explicar el ejemplo
+                    </div>
+                </div>
+                <pre data-line="2-17"><code class="language-javascript">var mouseMoved = rx.Observable.fromEvent($document, 'mousemove')
               .map(function (e) {
                 var offset = getOffset(textContainer);
                 return {
@@ -504,11 +519,11 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
                   };
                 }));
               }) ..//</code></pre>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-          <pre data-line="2-12"><code class="language-javascript">//....
+            </div>
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <pre data-line="2-12"><code class="language-javascript">//....
               .flatMap(function(letterConfig) {
                 return rx.Observable.timer(letterConfig.index * 100)
                   .map(function() {
@@ -526,11 +541,11 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
                 });
               });
 </code></pre>
-        </div>
-    </section>
-    <section data-bespoke-state="code long">
-        <div class="content nofade">
-          <pre data-line="29-37"><code class="language-javascript">// ...
+            </div>
+        </section>
+        <section data-bespoke-state="code long">
+            <div class="content nofade">
+                <pre data-line="29-37"><code class="language-javascript">// ...
               subscribe(function(letterConfig) {
                 $scope.$apply(function() {
                   $scope.letters[letterConfig.index] = letterConfig;
@@ -540,124 +555,128 @@ var disposable = Rx.Scheduler.timeout.scheduleWithState(
            $scope.$on('$destroy', function(){
              mouseMoved.dispose();
            });</code></pre>
-        </div>
-    </section>
-
-    <!-- ejecución de código ejemplo -->
-    <section data-bespoke-state="demo-day-fail">
-        <div class="content">
-            <h3>Vamos con el ejemplo &#x1f62c;</h3>
-        </div>
-    </section>
-
-    <!-- Ejemplo Rxjs -->
-    <section data-bespoke-state="livecode" class="mover" data-angular-app="mover" ng-controller="MainCtrl">
-        <div class="content">
-            <moving-text class="moving-text" text="Introducción a RxJs"></moving-text>
-        </div>
-    </section>
-    <!-- omg -->
-    <section data-bespoke-state="omg">
-        <div class="content">
-        </div>
-    </section>
-    <section data-bespoke-state="the-future">
-        <div class="content">
-            <h3>En donde veremos este paradigma en el futuro...<br> En el Internet de las cosas ( IoT )</h3>
-            <h4 class="classy"><a
-                    href="https://subscription.packtpub.com/book/application_development/9781785884269/1/ch01lvl1sec12/the-future-of-reactive-programming">El
-                futuro... Programación reactiva?
-            </a></h4>
-        </div>
-    </section>
-    <section data-bespoke-state="the-present">
-        <div class="content">
-            <h3>Que podemos utilizar hoy con este paradigma?</h3>
-        </div>
-    </section>
-    <section>
-        <div class="content">
-            <div>Manifiesto Reactivo</div>
-            <br>
-            <img style="width: 800px;" src="./img/rt.svg"/>
-
-        </div>
-    </section>
-
-    <section>
-        <div class="content">
-            <div>Empalme con Redux</div>
-            <br>
-            <div class="classy"><a href="https://es.redux.js.org">https://es.redux.js.org</a></div>
-        </div>
-    </section>
-
-    <section>
-        <div class="content">
-            <div>Juego para practicar y conocer</div>
-            <br>
-            <div class="classy"><a href="https://www.rxjs-fruits.com">&#x27a1; https://www.rxjs-fruits.com</a></div>
-            <br>
-            <img style="width: 600px" src="img/rxjs_fruits.png">
-        </div>
-    </section>
-
-    <!-- fin de explicaciones -->
-    <section data-bespoke-state="he-said-what">
-        <div class="content">
-            <div class="byline">
-                <div class="classy">fin de brochazo de rxjs</div>
             </div>
-            <div class="classy">y sus principales caracteristicas.</div>
-            <div class="unbrokenline"></div>
-        </div>
-    </section>
+        </section>
 
-    <!-- gracias --->
-    <section>
-        <div class="content">
-            <div class="byline">
-                <div class="classy">
-                    Este Dojo terminó.
+        <!-- ejecución de código ejemplo -->
+        <section data-bespoke-state="demo-day-fail">
+            <div class="content">
+                <h3>Vamos con el ejemplo &#x1f62c;</h3>
+            </div>
+        </section>
+
+        <!-- Ejemplo Rxjs -->
+        <section data-bespoke-state="livecode" class="mover" data-angular-app="mover" ng-controller="MainCtrl">
+            <div class="content">
+                <moving-text class="moving-text" text="Introducción a RxJs"></moving-text>
+            </div>
+        </section>
+        <!-- omg -->
+        <section data-bespoke-state="omg">
+            <div class="content">
+            </div>
+        </section>
+        <section data-bespoke-state="the-future">
+            <div class="content">
+                <h3>En donde veremos este paradigma en el futuro...<br> En el Internet de las cosas ( IoT )</h3>
+                <h4 class="classy"><a
+                        href="https://subscription.packtpub.com/book/application_development/9781785884269/1/ch01lvl1sec12/the-future-of-reactive-programming">El
+                        futuro... Programación reactiva?
+                    </a></h4>
+            </div>
+        </section>
+        <section data-bespoke-state="the-present">
+            <div class="content">
+                <h3>Que podemos utilizar hoy con este paradigma?</h3>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <div>Manifiesto Reactivo</div>
+                <br>
+                <img style="width: 800px;" src="./img/rt.svg" />
+
+            </div>
+        </section>
+
+        <section>
+            <div class="content" style="background-color:white;">
+                <div style="color: slateblue;">Empalme con Redux</div>
+                <div style="overflow-y: auto; overflow-y: auto;max-height: 750px;margin-bottom: 50px;">
+                    <img src="https://programmerclick.com/images/107/6324675e57b2c8d2ac19782816a66f8b.png"
+                        height="750px"></img>
                 </div>
-            </div>
-            <h3>Gracias por escucharnos</h3>
-            <div class="unbrokenline"></div>
-        </div>
-    </section>
-    <!-- celebración -->
-    <section data-bespoke-state="happyminion">
-        <div class="content">
-        </div>
-    </section>
-</article>
 
-<!-- carga fonts javascript-->
-<script type="text/javascript">
-    WebFontConfig = {
-        google: {families: ['Tauri::latin', 'Alegreya:400italic:latin']}
-    };
-    (function () {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-    })();
-</script>
-<script src="js/bespoke.js"></script>
-<script src="js/prism.js"></script>
-<script src="js/jquery.js"></script>
-<script src="js/deck.js"></script>
-<script src="js/lodash.js"></script>
-<script src="js/rx.lite.js"></script>
-<script src="js/rx.aggregates.js"></script>
-<script src="js/angular.js"></script>
-<script src="js/rx.angular.js"></script>
-<script src="js/app.bootstrap.js"></script>
-<script src="js/app.basic.js"></script>
-<script src="js/app.mover.js"></script>
+            </div>
+        </section>
+
+        <section>
+            <div class="content">
+                <div>Juego para practicar y conocer</div>
+                <br>
+                <div class="classy"><a href="https://www.rxjs-fruits.com">&#x27a1; https://www.rxjs-fruits.com</a></div>
+                <br>
+                <img style="width: 600px" src="img/rxjs_fruits.png">
+            </div>
+        </section>
+
+        <!-- fin de explicaciones -->
+        <section data-bespoke-state="he-said-what">
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">fin de brochazo de rxjs</div>
+                </div>
+                <div class="classy">y sus principales caracteristicas.</div>
+                <div class="unbrokenline"></div>
+            </div>
+        </section>
+
+        <!-- gracias --->
+        <section>
+            <div class="content">
+                <div class="byline">
+                    <div class="classy">
+                        Este Dojo terminó.
+                    </div>
+                </div>
+                <h3>Gracias por escucharnos</h3>
+                <div class="unbrokenline"></div>
+            </div>
+        </section>
+        <!-- celebración -->
+        <section data-bespoke-state="happyminion">
+            <div class="content">
+            </div>
+        </section>
+    </article>
+
+    <!-- carga fonts javascript-->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: ['Tauri::latin', 'Alegreya:400italic:latin'] }
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <script src="js/bespoke.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/deck.js"></script>
+    <script src="js/lodash.js"></script>
+    <script src="js/rx.lite.js"></script>
+    <script src="js/rx.aggregates.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/rx.angular.js"></script>
+    <script src="js/app.bootstrap.js"></script>
+    <script src="js/app.basic.js"></script>
+    <script src="js/app.mover.js"></script>
 </body>
+
 </html>
